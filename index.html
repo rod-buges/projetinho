@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Title</title>
+</head>
+<body>
+    <div id="form">
+        <!-- Adicione este bloco antes do título "Cadastrar" dentro do div #form -->
+<div class="logo-container">
+    <img src="caminho/do/seu/logo.png" alt="Logo" class="logo">
+</div>
+
+        <form action="">
+            <h2 class="title">Cadastrar
+            </h2>
+
+            <label for="full-username">Nome Completo</label>
+            <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input id="full-username" name="full-username" placeholder="Nome Completo" type="text">
+            </div>
+
+            <label for="data-de-nascimento">Data de Nascimento</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="date" name="data-de-nascimento" id="data-de-nascimento" placeholder="Data-de-nascimento">
+            </div>
+
+            <label for="cpf">CPF</label>
+            <div class="input">
+                <i class="fa-solid fa-key"></i>
+                <input type="text" name="cpf" id="cpf" placeholder="CPF">
+            </div>
+
+            <label for="email">Email</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="text" name="email" id="email" placeholder="Email">
+            </div>
+
+            <label for="phone">Telefone</label>
+            <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input id="phone" name="phone" placeholder="Telefone" type="number">
+            </div>
+
+            <label for="senha">Senha</label>
+            <div class="input">
+                <i class="fa-solid fa-key"></i>
+                <input type="password" name="senha" id="senha" placeholder="Password">
+            </div>
+
+
+
+
+
+
+            <div id="btn">
+                <button type="submit">Cadastrar</button>
+            </div>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1ca5f8a323.js" crossorigin="anonymous"></script>
+</body>
+</html>
